@@ -37,6 +37,8 @@ sudo mv apache-maven-3.9.0/ maven
 ```
 ## .#Step3) Set Environmental Variable  - For Specific User eg ec2-user
 ``` sh
+# ls -a /home/ec2-user/
+# .bash_profile
 vi ~/.bash_profile  # and add the lines below
 export M2_HOME=/opt/maven
 export PATH=$PATH:$M2_HOME/bin
